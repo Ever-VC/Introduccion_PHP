@@ -18,6 +18,16 @@ $resultado = restar(10, 5);
 echo $resultado;
 echo "<br>";
 
+// Parámetros nombrados
+function multiplicar(int $numero1 = 0, int $numero2 = 0) {
+    return $numero1 * $numero2;
+}
+
+$resultado = multiplicar(numero2: 10, numero1: 5);
+
+echo $resultado;
+echo "<br>";
+
 function dividir($numero1, $numero2) {
     if($numero2 === 0) {
         echo "No se puede dividir entre 0";
