@@ -1,7 +1,9 @@
-<?php include 'includes/header.php';
+<?php require 'includes/header.php';
 
 
+require_once 'funciones.php';
 
+iniciarApp();
 
 
 
